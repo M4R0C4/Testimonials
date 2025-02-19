@@ -1,0 +1,17 @@
+@use './variables';
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: variables.$Light-grayish-blue;
+}
+
+@media screen and (min-width: 940px) {
+    body{
+        margin: 10% 0;
+        align-content: center;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

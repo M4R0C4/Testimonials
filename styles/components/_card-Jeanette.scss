@@ -1,0 +1,23 @@
+@use '../abs/variables';
+@use '../abs/mixins';
+.containerJeanette{
+    @include mixins.card-default();
+    color: variables.$font-color-kira-janette;
+    background-color: variables.$card-Jeanette;
+    .identification{
+        @include mixins.identification-default();
+    }
+    .title{
+        @include mixins.title-default();
+    }
+    .text{
+        @include mixins.text-default();
+    }
+}
+@media screen and (min-width: 940px) {
+    .containerJeanette{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        box-shadow: 26px 19px 55px 0px rgba(0,0,0,0.37);
+    }
+}

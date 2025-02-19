@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(210, 46%, 95%);
+}
+
+@media screen and (min-width: 940px) {
+  body {
+    margin: 5% 0;
+    align-content: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.containerDaniel {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 10px;
+  background-color: #733FC8;
+  color: hsl(0, 0%, 100%);
+}
+.containerDaniel::after {
+  content: url(../images/bg-pattern-quotation.svg);
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  opacity: 0.5;
+}
+.containerDaniel .identification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.625rem 0 0 2rem;
+}
+.containerDaniel .identification img {
+  border-radius: 50%;
+  margin-right: 17px;
+  width: 28px;
+  height: 28px;
+}
+.containerDaniel .identification h3 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.containerDaniel .identification p {
+  padding: 0 0 1rem 0;
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 11px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.containerDaniel .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 18px 2rem 0 2rem;
+}
+.containerDaniel .text {
+  margin: 40px 3rem 2rem 2rem;
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 13px;
+  color: hsl(0, 0%, 81%);
+}
+
+@media screen and (min-width: 940px) {
+  .containerDaniel {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    box-shadow: 26px 19px 55px 0px rgba(0, 0, 0, 0.37);
+  }
+  .containerDaniel::after {
+    content: url(../images/bg-pattern-quotation.svg);
+    position: absolute;
+    top: 150px;
+    right: 70rem;
+    opacity: 0.5;
+  }
+}
+.containerJonathan {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 10px;
+  background-color: #48556A;
+  color: hsl(0, 0%, 100%);
+}
+.containerJonathan .identification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.625rem 0 0 2rem;
+}
+.containerJonathan .identification img {
+  border-radius: 50%;
+  margin-right: 17px;
+  width: 28px;
+  height: 28px;
+}
+.containerJonathan .identification h3 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.containerJonathan .identification p {
+  padding: 0 0 1rem 0;
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 11px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.containerJonathan .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 18px 2rem 0 2rem;
+}
+.containerJonathan .text {
+  margin: 2.5rem 3rem 2rem 2rem;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 0.8125rem;
+}
+
+@media screen and (min-width: 940px) {
+  .containerJonathan {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    box-shadow: 26px 19px 55px 0px rgba(0, 0, 0, 0.37);
+  }
+}
+.containerJeanette {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 10px;
+  color: hsl(219, 29%, 14%);
+  background-color: #FFFFFF;
+}
+.containerJeanette .identification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.625rem 0 0 2rem;
+}
+.containerJeanette .identification img {
+  border-radius: 50%;
+  margin-right: 17px;
+  width: 28px;
+  height: 28px;
+}
+.containerJeanette .identification h3 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.containerJeanette .identification p {
+  padding: 0 0 1rem 0;
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 11px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.containerJeanette .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 18px 2rem 0 2rem;
+}
+.containerJeanette .text {
+  margin: 2.5rem 3rem 2rem 2rem;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 0.8125rem;
+}
+
+@media screen and (min-width: 940px) {
+  .containerJeanette {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    box-shadow: 26px 19px 55px 0px rgba(0, 0, 0, 0.37);
+  }
+}
+.containerPatrick {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 10px;
+  background-color: #19202D;
+  color: hsl(0, 0%, 100%);
+}
+.containerPatrick .identification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.625rem 0 0 2rem;
+}
+.containerPatrick .identification img {
+  border-radius: 50%;
+  margin-right: 17px;
+  width: 28px;
+  height: 28px;
+}
+.containerPatrick .identification h3 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.containerPatrick .identification p {
+  padding: 0 0 1rem 0;
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 11px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.containerPatrick .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 18px 2rem 0 2rem;
+}
+.containerPatrick .text {
+  margin: 2.5rem 3rem 2rem 2rem;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 0.8125rem;
+}
+
+@media screen and (min-width: 940px) {
+  .containerPatrick {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    box-shadow: 26px 19px 55px 0px rgba(0, 0, 0, 0.37);
+  }
+}
+.containerKira {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  color: hsl(219, 29%, 14%);
+}
+.containerKira .identification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.625rem 0 0 2rem;
+}
+.containerKira .identification img {
+  border-radius: 50%;
+  margin-right: 17px;
+  width: 28px;
+  height: 28px;
+}
+.containerKira .identification h3 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.containerKira .identification p {
+  padding: 0 0 1rem 0;
+  margin: 0;
+  font-size: 0.6875rem;
+  line-height: 11px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.containerKira .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 18px 2rem 0 2rem;
+}
+.containerKira .text {
+  margin: 2.5rem 3rem 2rem 2rem;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 0.8125rem;
+}
+
+@media screen and (min-width: 940px) {
+  .containerKira {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    box-shadow: 26px 19px 55px 0px rgba(0, 0, 0, 0.37);
+  }
+}
+.attribution {
+  text-align: center;
+  font-size: 11px;
+  margin: 1rem 0 0 0;
+  grid-column: 2/4;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@use '../abs/variables';
+@use '../abs/mixins';
+.containerJonathan{
+    @include mixins.card-default();
+    background-color: variables.$card-Jonathan;
+    color:variables.$font-color-johnathan;
+    .identification{
+        @include mixins.identification-default();
+    }
+    .title{
+        @include mixins.title-default();
+    }
+    .text{
+        @include mixins.text-default();
+    }
+}
+@media screen and (min-width: 940px) {
+    .containerJonathan{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        box-shadow: 26px 19px 55px 0px rgba(0,0,0,0.37);
+    }
+}
