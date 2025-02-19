@@ -6,8 +6,8 @@ body {
 }
 
 @media screen and (min-width: 940px) {
-  body {
-    margin: 5% 0;
+  nav {
+    margin: 10% 0;
     align-content: center;
     display: grid;
     grid-template-rows: auto auto;
@@ -43,7 +43,7 @@ body {
   width: 28px;
   height: 28px;
 }
-.containerDaniel .identification h3 {
+.containerDaniel .identification h1 {
   padding: 1rem 0 0 0;
   margin: 0;
   font-size: 0.8125rem;
@@ -106,7 +106,7 @@ body {
   width: 28px;
   height: 28px;
 }
-.containerJonathan .identification h3 {
+.containerJonathan .identification h1 {
   padding: 1rem 0 0 0;
   margin: 0;
   font-size: 0.8125rem;
@@ -162,7 +162,7 @@ body {
   width: 28px;
   height: 28px;
 }
-.containerJeanette .identification h3 {
+.containerJeanette .identification h1 {
   padding: 1rem 0 0 0;
   margin: 0;
   font-size: 0.8125rem;
@@ -218,7 +218,7 @@ body {
   width: 28px;
   height: 28px;
 }
-.containerPatrick .identification h3 {
+.containerPatrick .identification h1 {
   padding: 1rem 0 0 0;
   margin: 0;
   font-size: 0.8125rem;
@@ -274,7 +274,7 @@ body {
   width: 28px;
   height: 28px;
 }
-.containerKira .identification h3 {
+.containerKira .identification h1 {
   padding: 1rem 0 0 0;
   margin: 0;
   font-size: 0.8125rem;
