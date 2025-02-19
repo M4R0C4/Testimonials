@@ -15,7 +15,6 @@
 .DS_Store
 testimonials-grid-section.fig
 .prettierignore
-README.md
 design
 .vscode
 package.json
